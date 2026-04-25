@@ -8,13 +8,26 @@
 
 ## 2. Link do Mermaid Live
 
-Cole aqui o link do diagrama validado.
+Diagrama validado no Mermaid Live.
 
+---
 ## 3. Diagrama final em Mermaid
 
 ```mermaid
 classDiagram
-    %% Substitua este bloco pelo seu diagrama final.
+
+class Equipamento {
+  -nome
+  +ligar()
+  +desligar()
+}
+
+class SensorTemperatura {
+  -temperatura
+  +ler_temperatura()
+}
+
+Equipamento <|-- SensorTemperatura
 ```
 
 ## 4. Justificativa tecnica
